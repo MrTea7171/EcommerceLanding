@@ -22,7 +22,7 @@ const Navbar = () => {
         "Le Prestige",
         "SALE",
         "Auctions",
-      ].map((title, index) => {
+      ].map((title) => {
         const isActive = activeNav === title;
         const isSale = title === "SALE";
         return (

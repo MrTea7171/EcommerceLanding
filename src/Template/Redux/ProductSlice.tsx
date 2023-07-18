@@ -34,7 +34,7 @@ const productSlice = createSlice<
   initialState: ProductListData,
   reducers: {
     filterProduct: (
-      state,
+      [],
       action: {
         payload: {
           filter: FilterBy;

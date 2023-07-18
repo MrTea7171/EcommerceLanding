@@ -23,7 +23,7 @@ const FilterBox = ({ title, values, onCheck, filterBy }: IFilterBoxProps) => {
       </FlexBox>
       <BasicBox marginTop="10px">
         <FlexBox display={isMultiple ? "flex" : undefined} flexWrap="wrap">
-          {values.map((value, index) => {
+          {values.map((value) => {
             return (
               <BasicBox
                 margin={
